@@ -8,7 +8,7 @@ import re
 
 
 # Set API key for Gemini
-os.environ["API_KEY"] = "AIzaSyBIwTR8puezDg7IYk8Szd5OITxcg4mCEW0"
+os.environ["API_KEY"] = "API_KEY"
 genai.configure(api_key=os.environ["API_KEY"])
 
 video_length = 5  # Length of the video in minutes
